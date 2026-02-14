@@ -25,3 +25,12 @@ nav:
       - blog/index.md
 plugins:
   - blog
+markdown_extensions:
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
