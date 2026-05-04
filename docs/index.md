@@ -1,29 +1,56 @@
 # Engineering Lab
 
-This is a personal engineering notebook for ideas, experiments, and the occasional
-finished write-up. The point is not to present a perfectly curated body of work.
-It is to make things visible early enough that they have a chance to grow.
+<div class="lab-hero">
+  <p class="lab-kicker">Personal engineering notebook</p>
+  <p class="lab-lede">
+    A working space for ideas, experiments, and the occasional finished write-up.
+    The goal is not polish-first publishing. The goal is to make interesting things
+    visible while they are still alive.
+  </p>
+  <div class="lab-status-row">
+    <span class="lab-chip">Current focus: systems and tooling notes</span>
+  </div>
+</div>
 
-## What lives here
+## Current tracks
 
-### Thoughts
+<div class="lab-grid lab-grid--tracks">
+  <a class="lab-card" href="/lab/">
+    <p class="lab-card-label">Track 01</p>
+    <h3>Systems</h3>
+    <p>Platform and telemetry ideas that can be broken into practical examples instead of staying as architecture fog.</p>
+    <p><span class="lab-tag">active</span> <span class="lab-tag">lab</span></p>
+  </a>
+  <a class="lab-card" href="/lab/markerboard/">
+    <p class="lab-card-label">Track 02</p>
+    <h3>Experiments</h3>
+    <p>Rabbit holes worth following far enough to learn something, even if the result never becomes a polished project.</p>
+    <p><span class="lab-tag">exploratory</span> <span class="lab-tag">wip</span></p>
+  </a>
+</div>
 
-Short notes and longer pieces once an idea has enough shape to be useful outside
-my own head.
+## How the site works
 
-### Lab
+<div class="lab-grid lab-grid--structure">
+  <a class="lab-card" href="/blog/">
+    <h3>Thoughts</h3>
+    <p>Short notes and fuller write-ups once an idea has enough shape to stand on its own.</p>
+    <p><span class="lab-card-link">Browse thoughts</span></p>
+  </a>
+  <a class="lab-card" href="/lab/">
+    <h3>Lab</h3>
+    <p>Active experiments, scratch work, and project fragments that are still being worked through in public.</p>
+    <p><span class="lab-card-link">Enter the lab</span></p>
+  </a>
+  <a class="lab-card" href="/lab/markerboard/">
+    <h3>Markerboard</h3>
+    <p>Loose threads, prompts, and ideas that are not yet stable enough to deserve their own page.</p>
+    <p><span class="lab-card-link">View active scraps</span></p>
+  </a>
+</div>
 
-Active experiments, scratch work, and project fragments that are still being worked
-through in public.
+## First stop
 
-## Current status
-
-This site is intentionally a work in progress. Some pages will be rough, some will
-end abruptly, and some ideas will never make it past the markerboard stage. That is
-part of the point.
-
-## Start here
-
-- Read [Why keep a lab notebook?](blog/why-a-lab-notebook.md) for the intent behind the site
-- Browse [Thoughts](blog/index.md) for more finished notes
-- Check [Markerboard](lab/markerboard.md) for active threads and scraps
+- Read [Why keep a lab notebook?](blog/why-a-lab-notebook.md) for the intent behind the site.
+- Browse [Thoughts](blog/index.md) for more deliberate notes.
+- Check [Markerboard](lab/markerboard.md) for the unfinished edge of the work.
