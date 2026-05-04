@@ -1,0 +1,46 @@
+[project]
+site_name = "Engineering Lab"
+site_url = "https://gazedwards.github.io/"
+nav = [
+  { Home = "index.md" },
+  { About = "about.md" },
+  { Thoughts = [
+    { Overview = "blog/index.md" },
+    { "Why keep a lab notebook?" = "blog/why-a-lab-notebook.md" },
+  ] },
+  { Lab = [
+    { Overview = "lab/index.md" },
+    { Markerboard = "lab/markerboard.md" },
+  ] },
+]
+
+[project.theme]
+variant = "modern"
+features = [
+  "navigation.sections",
+  "navigation.expand",
+  "content.code.copy",
+]
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "pink"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "pink"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.tilde]

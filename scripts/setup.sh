@@ -5,7 +5,7 @@ set -euo pipefail
 python3 -m venv .venv
 . .venv/bin/activate
 pip install --upgrade pip
-pip install mkdocs mkdocs-material
+pip install zensical
 
 printf '\nSetup complete.\n'
-printf 'Activate the environment with: source .venv/bin/activate\n'
+printf 'Project commands can be run with just, for example: just serve\n'

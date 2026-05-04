@@ -2,13 +2,13 @@ init:
     ./scripts/setup.sh
 
 serve:
-    .venv/bin/mkdocs serve --livereload
+    .venv/bin/zensical serve
 
 build:
-    .venv/bin/mkdocs build
+    .venv/bin/zensical build
 
 deploy:
-    .venv/bin/mkdocs gh-deploy
+    .venv/bin/zensical build --clean
 
 default:
     serve
