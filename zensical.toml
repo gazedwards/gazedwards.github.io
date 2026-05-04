@@ -11,7 +11,7 @@ nav = [
   ] },
   { Lab = [
     { Overview = "lab/index.md" },
-    { Markerboard = "lab/markerboard.md" },
+    { "Observability for small systems" = "lab/observability-for-small-systems.md" },
   ] },
 ]
 
@@ -22,6 +22,7 @@ font.code = "IBM Plex Mono"
 features = [
   "navigation.sections",
   "navigation.expand",
+  "navigation.indexes",
   "content.code.copy",
 ]
 

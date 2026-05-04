@@ -249,6 +249,16 @@
   text-align: center;
 }
 
+.lab-grid--structure {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lab-grid--structure .lab-card {
+  text-align: center;
+}
+
 [data-md-color-scheme="default"] .lab-card {
   background: linear-gradient(180deg, rgba(33, 125, 68, 0.05), rgba(33, 125, 68, 0.015));
 }
@@ -288,6 +298,16 @@
   color: var(--lab-link-hover);
 }
 
+.md-nav--secondary .md-nav__link {
+  color: inherit;
+}
+
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link--passed {
+  color: var(--lab-link-color);
+}
+
 .md-top,
 .md-typeset .md-button {
   border-radius: 999px;
@@ -307,7 +327,7 @@
   }
 
   .lab-grid--structure {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

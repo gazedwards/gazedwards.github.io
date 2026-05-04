@@ -12,7 +12,7 @@ This repository is a small documentation-style site. Author content lives in `do
 Run commands from the repository root.
 
 ## Coding Style & Naming Conventions
-Use Markdown for content and TOML for site configuration. Keep indentation to 2 spaces in nav arrays within `zensical.toml` and 4 spaces in `justfile` recipes, matching the existing files. Prefer short, descriptive page names in lowercase, using hyphenated or simple path segments such as `docs/lab/markerboard.md`. Write headings in sentence case unless a proper noun requires otherwise. Keep navigation entries in `zensical.toml` aligned with actual file paths.
+Use Markdown for content and TOML for site configuration. Keep indentation to 2 spaces in nav arrays within `zensical.toml` and 4 spaces in `justfile` recipes, matching the existing files. Prefer short, descriptive page names in lowercase, using hyphenated or simple path segments such as `docs/lab/observability-for-small-systems.md`. Write headings in sentence case unless a proper noun requires otherwise. Keep navigation entries in `zensical.toml` aligned with actual file paths.
 
 ## Testing Guidelines
 There is no automated test suite configured today. Validate changes by running `just serve` for local review and `just build` before opening a PR to catch broken navigation, invalid Markdown, or config errors. When adding new pages, verify the page renders and is linked from `nav` when appropriate.

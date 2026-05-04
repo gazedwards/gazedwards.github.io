@@ -1,22 +1,41 @@
-# In the lab
+# Lab
 
-This section is for work that is still moving.
+Scraps of ideas before they are fully formed.
 
-Some of it will stay as rough notes, some of it will turn into proper write-ups,
-and some of it will quietly die on the bench. That is fine. The goal here is to
-keep momentum high enough that ideas do not need to be fully polished before they
-become visible.
+This page is deliberately rough. It is a holding space for topics that are interesting
+enough to keep around, but not yet detailed enough to justify a dedicated note.
 
-## How this section works
+Working notes sit under this page once a thread has enough substance to deserve
+examples, trade-offs, or implementation detail.
 
-- `Markerboard` holds raw prompts, half-formed ideas, and things worth revisiting.
-- Working notes will sit here once an idea has enough substance to deserve examples,
-  trade-offs, or implementation details.
-- If a topic becomes coherent enough for a broader audience, it can graduate into
-  `Thoughts`.
+## Active threads
 
-## Current focus
+### General telemetry platform scaffolding
 
-- Platform and telemetry ideas that can be broken into reusable examples
-- Tooling experiments that make local development or testing easier
-- Rust-shaped rabbit holes that may or may not turn into something useful
+What would a minimal but reusable telemetry stack look like if it were designed for
+small systems first, instead of enterprise-scale complexity from day one?
+
+Likely output: a focused note on observability for small systems, starting from the
+question of what is genuinely useful before a system becomes large or distributed.
+
+Current working note: [Observability for small systems](observability-for-small-systems.md)
+
+### Mock server tooling for local development
+
+There is probably room for a lightweight set of tools that can generate or replay
+source data for other projects without dragging in a full integration environment.
+
+Likely output: a note on local-first integration testing patterns, especially once
+there is a clearer view of what signals and traces are worth capturing during those
+tests.
+
+### Rust experiments
+
+This may stay a curiosity, but there is enough interest here to justify a few notes
+once there is something more concrete than "this seems neat" and closer to a real
+systems or tooling problem worth exploring.
+
+### Example catalogue for complex concepts
+
+Some topics are hard to explain because examples are either too trivial or too tied
+to one stack. A small catalogue of worked examples could be useful if it stays focused.
