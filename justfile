@@ -1,8 +1,14 @@
+init:
+    ./scripts/setup.sh
+
 serve:
-    mkdocs serve --livereload
+    .venv/bin/mkdocs serve --livereload
+
+build:
+    .venv/bin/mkdocs build
 
 deploy:
-    mkdocs gh-deploy
+    .venv/bin/mkdocs gh-deploy
 
 default:
     serve

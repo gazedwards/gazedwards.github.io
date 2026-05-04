@@ -3,6 +3,10 @@ site_url: https://gazedwards.github.io/
 docs_dir: docs
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
   palette:
     - scheme: slate
       primary: indigo
@@ -19,10 +23,12 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-  - Lab:
-      - Markerboard: lab/markerboard.md
   - Thoughts:
-      - blog/index.md
+      - Overview: blog/index.md
+      - Why keep a lab notebook?: blog/why-a-lab-notebook.md
+  - Lab:
+      - Overview: lab/index.md
+      - Markerboard: lab/markerboard.md
 plugins:
   - blog
 markdown_extensions:
