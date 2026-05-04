@@ -1,6 +1,7 @@
 [project]
 site_name = "Engineering Lab"
 site_url = "https://gazedwards.github.io/"
+extra_css = ["stylesheets/extra.css"]
 nav = [
   { Home = "index.md" },
   { About = "about.md" },
@@ -16,6 +17,8 @@ nav = [
 
 [project.theme]
 variant = "modern"
+font.text = "IBM Plex Sans"
+font.code = "IBM Plex Mono"
 features = [
   "navigation.sections",
   "navigation.expand",
@@ -24,15 +27,15 @@ features = [
 
 [[project.theme.palette]]
 scheme = "slate"
-primary = "indigo"
-accent = "pink"
+primary = "black"
+accent = "green"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to light mode"
 
 [[project.theme.palette]]
 scheme = "default"
-primary = "indigo"
-accent = "pink"
+primary = "black"
+accent = "green"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to dark mode"
 
